@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Playlists } from './Playlists';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Playlists>
+      <App />
+    </Playlists>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -9,6 +9,10 @@
   border-bottom: none;
 }
 
+.trackInfo {
+  flex-grow: 1;
+}
+
 .trackPlay {
   width: 3rem;
   height: 3rem;
@@ -26,4 +30,8 @@
 
 .trackArtist {
   color: #767676;
+}
+
+.actions {
+  float: right;
 }
